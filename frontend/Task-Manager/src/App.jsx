@@ -12,9 +12,11 @@ import MyTasks from './pages/User/MyTasks';
 import ViewTaskDetails from './pages/User/ViewTaskdetails';
 
 import PrivateRoute from './routes/PrivateRoute';
+import UserProvider from './context/UserContext';
 
 const App = () => {
   return (
+    <UserProvider>
     <div>
       <Router>
         <Routes>
@@ -43,6 +45,7 @@ const App = () => {
 
 
     </div>
+    </UserProvider>
   );
 };
 
