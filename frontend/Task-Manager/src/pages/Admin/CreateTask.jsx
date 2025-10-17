@@ -1,7 +1,7 @@
 import React from 'react'
 const CreateTask = () => {
   return (
-    <div>CreateTask</div>
+    <div>CreateTask.</div>
   )
 }
 
